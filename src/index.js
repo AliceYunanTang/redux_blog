@@ -15,10 +15,10 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <BrowserRouter>
       <div>
-        <switch>
+        <Switch>
           <Route path="/posts/new" component={PostsNew} />
           <Route path="/" component={PostsIndex} />
-        </switch>
+        </Switch>
       </div>
     </BrowserRouter>
   </Provider>
